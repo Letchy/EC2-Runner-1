@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "k8s-ec2-runner-bucket1"
+    bucket  = "k8s-ec2-runner-bucket-bl"
     region  = "eu-west-2"
     key     = "Github-Runner-TF/terraform.tfstate"
     encrypt = true
